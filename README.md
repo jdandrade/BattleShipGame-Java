@@ -9,7 +9,7 @@ Compile and run BattleShips.java on Terminal or just import classes to an IDE an
 
 ## How to play
 
-Insert play by typing Board coordinates (Letter_space_Number).
+Insert play by typing Board coordinates (Letter+Number).
 
 ## Stuff to do
 
