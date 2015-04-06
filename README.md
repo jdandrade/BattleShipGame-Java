@@ -5,7 +5,7 @@ Done in my 1st year - Computer Engineering.
 
 ## How to run
 
-Compile and run src/BattleShips.java on Terminal or just import classes to an IDE and run.
+Run BattleShips.java on Terminal or just import classes to an IDE and run.
 
 ## How to play
 
