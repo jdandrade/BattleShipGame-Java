@@ -21,6 +21,8 @@ public class BattleShips {
 		Gameboard gboard = new Gameboard(WIDTH, HEIGHT, NUMBEROFSHIPS);
 		generateHiddenBoard();
 
+		//Ciclo do jogo, quando saír do ciclo é porque o jogo acabou
+
 		while (!gameEnd) {
 			showHiddenBoard();
 			boolean wrongInput = true;
