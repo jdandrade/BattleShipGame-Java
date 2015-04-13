@@ -15,7 +15,6 @@ public class Gameboard {
 
 		generateBoard();
 		generateShipPositions();
-//		showBoard();
 	}
 
 	public void showBoard() {
@@ -137,6 +136,8 @@ public class Gameboard {
 	public int getNrShipParts() {
 		return this.nrofshipparts;
 	}
+
+	// Conditionals for ships hit. Could be more efficient...
 
 	public void hitShip(int row, int column) {
 		if(this.board[row][column] == 'A'){
