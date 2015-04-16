@@ -16,7 +16,10 @@ public class Gameboard {
 		generateBoard();
 		generateShipPositions();
 	}
-
+	
+	/* Text display of the GameBoard
+	* On Console/Terminal using System.out.print's
+	*/
 	public void showBoard() {
 		System.out.println();
 		System.out.print("    ");
@@ -55,6 +58,13 @@ public class Gameboard {
 
 	}
 
+	/* Sets a ship on a certain spot facing a specified direction that was generated on generateShipPositions()
+	* @param x : x coord
+	* @param y : y coord
+	* @param direction : direction ship is facing 1-up 2-right 3-down 4-left
+	* @param length : length of the ship
+	* @param c : Character id of the ship (ex: Ship 'A')
+	*/
 	public static void setShips(int x, int y, int direction, int length, char c) {
 
 		for (int i = 0; i < length; i++) {
