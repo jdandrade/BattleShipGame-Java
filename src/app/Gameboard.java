@@ -146,6 +146,9 @@ public class Gameboard {
 		return board;
 	}
 
+	/* Getter of the Ship Length
+	* returns nrofshipparts
+	*/
 	public int getNrShipParts() {
 		return this.nrofshipparts;
 	}
