@@ -139,6 +139,9 @@ public class Gameboard {
 		}
 
 	}
+	/* Getter of the board (GameBoard char[][] matrix)
+	* returns board
+	*/
 	public char[][] getBoard(){
 		return board;
 	}
